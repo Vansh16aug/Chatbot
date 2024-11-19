@@ -10,7 +10,7 @@
 	<icon>
 		
 	</icon>
-	<h1>AR<span>ESA<span>BOT</span></span></h1>
+	<h1>BOSS<span><span>BOT</span></span></h1>
 	<nav>
 		<ul>
 			
@@ -39,8 +39,6 @@
 		<tr>
 			<th colspan="4"><h2>Chat record</h2></th>
 			<h3></h3>
-		
-		
 		<tr>
 			<th align="center">id</th>
 			<th align="center">message</th>
@@ -66,8 +64,6 @@
 			throw new PDOException($e->getMessage());
 		}
 	?>
-
 	</table>
-
 </body>
 </html>

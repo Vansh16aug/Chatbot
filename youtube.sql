@@ -53,9 +53,13 @@ INSERT INTO `chatbot_hints` (`id`, `question`, `reply`) VALUES
 --
 
 CREATE TABLE `invalid` (
-  `id` int(11) NOT NULL,
-  `messages` varchar(255) NOT NULL
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_message` varchar(255) NOT NULL,
+  `bot_response` varchar(255) NOT NULL,
+  `reported_on` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 
 --
 -- Dumping data for table `invalid`

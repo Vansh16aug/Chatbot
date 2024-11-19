@@ -9,7 +9,6 @@
 
 <title>Login Page</title>
 <link rel="stylesheet" href="css/stylex.css">
--->
 <style>
 body 
 {
@@ -19,11 +18,7 @@ body
   background-size: 100% 100%;
 }
 
-
-
 </style>
-
-
 
 </head>
 
@@ -73,7 +68,7 @@ body
 			$password=$_POST['password'];
 			
 			$sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
-			
+
 			$stmt = $db->prepare($sql);
 			$stmt->execute();
 			if( $stmt->rowCount() > 0)
@@ -89,10 +84,7 @@ body
 			}
 			
 		}
-		
-		
 		?>
-		
 	</div>
 </body>
 </html>

@@ -37,18 +37,6 @@ body
 		</center>
 	
 		<form class="myform" action="register.php" method="POST">
-		<!--	<label><b>Full Name:</b></label><br>
-			<input name="fullname" type="text" class="inputvalues" placeholder="Type your Full Name" required/><br>
-			<label><b>Gender:</b></label>
-			<input type="radio" class="radiobtns" name="gender" value="male" checked required> Male
-			<input type="radio" class="radiobtns" name="gender" value="male" required> Female<br>
-			<label><b>Educational Qualification</b></label>
-			<select class="qualification" name="qualification">
-			  <option value="BScIT">BScIT</option>
-			  <option value="BMS">BMS</option>
-			  <option value="BE.IT">BE.IT</option>
-			  <option value="MCA">MCA</option>
-			</select><br> -->
 
 			<div class="inner_container">
 

@@ -36,8 +36,6 @@ require_once 'dbconfig/config.php';
 
 	}
 </style>
-
-
 </head>
 <br><br><br><br><br><br>
 <br>
@@ -46,7 +44,6 @@ require_once 'dbconfig/config.php';
 	<table border="0" bgcolor="black" align="center" cellspacing="50">
 			<div id="main-wrapper">
 				<center>
-			
 			<div class="imgcontainer">
 			<img src="image/bot_avatar.png" class="avatar"/>
 		</center>
@@ -54,19 +51,16 @@ require_once 'dbconfig/config.php';
 		<tr>
 			<td>Id</td>
 			<td><input type="text" value="" name="id" placeholder="Type Id here..."required></td>
-			
 		</tr>
 		
 
 		<tr>
 			<td>Question</td>
 			<td><input type="text" value="" name="question" placeholder="Type your query here..."required></td>
-			
 		</tr>
 		<tr>
 			<td>Reply</td>
 			<td><input type="text" value="" name="reply" placeholder="Type your response here..."required></td>
-			
 		</tr>
 		
 		</tr>
@@ -81,7 +75,6 @@ require_once 'dbconfig/config.php';
 
 </body>
 </html>
-
 
 <?php
 if(isset($_POST['submit']))

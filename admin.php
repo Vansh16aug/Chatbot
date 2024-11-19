@@ -46,18 +46,10 @@ body
 			<label><b id="adminp">Password:</b></label><br>
 			<input name="password" type="password" class="inputvalues" id="adminpass" placeholder="Type your password" required/><br>
 			
-		
-
-						<a href="adminlogin.php"><input  type="button" id="admin_btn" value="LogIn"/></a><br>
+			<a href="adminlogin.php"><input  type="button" id="admin_btn" value="LogIn"/></a><br>
 			<a href="index.php"><input type="button" id="back_btn" value="Back"/></a>
-
-		
-			
-		
 		</div>
-
 		</form>
-		
 	</div>
 </body>
 </html>
